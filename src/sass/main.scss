@@ -5,3 +5,9 @@
 
 // Стили для файла с примером HTML-фрагмента
 @import './example';
+
+//BASE
+@import './utils/visually-hidden';
+
+//UTILS
+@import './base/common';
