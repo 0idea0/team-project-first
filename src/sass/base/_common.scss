@@ -31,3 +31,8 @@ img {
   width: 100%;
   display: block;
 }
+
+body {
+  font-family: var(--main-font), 'Open Sans' sans-serif;
+  letter-spacing: 0.08em;
+}
