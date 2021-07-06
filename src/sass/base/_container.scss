@@ -13,13 +13,17 @@
     width: 768px;
     padding-left: 40px;
     padding-right: 40px;
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 
 @media screen and (min-width: 1366px) {
   .container {
     width: 1366px;
-    padding-left: 183px;
-    padding-right: 183px;
+    padding-left: 26px;
+    padding-right: 26px;
+    margin-right: auto;
+    margin-left: auto;
   }
 }
