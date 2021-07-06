@@ -11,8 +11,8 @@
   line-height: 1.29;
   letter-spacing: 0.03em;
   color: #ffffff;
-  max-width: 259px;
-  padding-top: 25px;
+  // max-width: 259px;
+  // padding-top: 25px;
   margin-bottom: 25px;
 }
 
@@ -42,10 +42,6 @@
   margin-bottom: 5px;
 }
 
-.problem-list__item:not(:last-child) {
-  margin-bottom: 15px;
-}
-
 .problem-list__type {
   font-family: var(--main-font);
   font-weight: 700;
@@ -53,4 +49,48 @@
   line-height: 1.71;
   letter-spacing: 0.08em;
   color: #111518;
+}
+
+@media screen and (max-width: 767px) {
+  .problems__title {
+    letter-spacing: 0.02em;
+    max-width: 255px;
+    padding-top: 25px;
+    // margin-bottom: 25px;
+  }
+
+  .problem-list__item:not(:last-child) {
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .problems {
+    margin: 0 auto;
+  }
+
+  .problems__title {
+    padding-top: 60px;
+    text-align: left;
+    width: 420px;
+    // margin-bottom: 25px;
+  }
+
+  .problem-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 26px;
+    padding-right: 47px;
+    padding-bottom: 30px;
+    padding-left: 96px;
+    margin-bottom: -32px; ////////////////////
+    margin-left: -22px; //////////////////////////
+    // flex-basis: calc((100% - 44px) / 2);
+  }
+
+  .problem-list__item {
+    width: 236px;
+    margin-top: 32px;
+    margin-left: 22px;
+  }
 }
