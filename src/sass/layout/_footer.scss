@@ -8,6 +8,7 @@ footer__container {
     padding-bottom: 30px;
 
     &__logo {
+      font-family: 'Montserrat', sans-serif;
       font-weight: 800;
       font-size: 26px;
       line-height: 1.23;
@@ -54,12 +55,27 @@ footer__container {
     }
 
     &__logo-text {
-      font-family: 'Montserrat', sans-serif;
+      font-family: var (--main-font);
       font-weight: 700;
       font-size: 5px;
       line-height: 1.2;
       letter-spacing: 0.18em;
       text-transform: uppercase;
+    }
+
+    &__rights {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 2;
+
+      color: #b9b9b9;
+    }
+
+    &__rights-container {
+      padding-top: 21px;
+      padding-bottom: 21px;
+      background-color: #111518;
     }
   }
 
