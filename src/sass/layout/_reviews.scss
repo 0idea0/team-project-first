@@ -1,0 +1,126 @@
+.reviews {
+  font-family: var(--main-font);
+  text-align: center;
+}
+
+.reviews__tittle {
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 1.3;
+}
+
+.container-reviews {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: #e5e5e5;
+}
+
+.graduates__pictures {
+  &-img {
+    margin-top: 24px;
+    height: 90px;
+    width: 90px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.feeback-social-icon {
+  width: 30px;
+  height: 17px;
+  margin-top: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  fill: rgba(67, 110, 171, 1);
+}
+
+.graduates__description {
+  width: 240px;
+  margin-left: auto;
+  margin-right: auto;
+  &-tittle {
+    color: var(--accent-color);
+    margin-top: 30px;
+    line-height: 1.21;
+    font-size: 14px;
+  }
+  &-history {
+    color: #b9b9b9;
+    margin-top: 16px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.21;
+  }
+  &-about {
+    font-size: 12px;
+    line-height: 1.66;
+    font-weight: 500;
+    color: #3d3d3d;
+    margin-top: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+}
+
+.review__description-link {
+  color: var(--accent-color);
+}
+
+.people {
+  margin-top: 62px;
+  display: flex;
+  justify-content: center;
+  &__item:not(:last-child) {
+    margin-right: 10px;
+  }
+}
+
+.people__item:nth-last-of-type(1),
+.people__item:nth-last-of-type(2),
+.people__item:nth-last-of-type(6),
+.people__item:nth-last-of-type(7) {
+  display: none;
+}
+
+.people__item-img {
+  width: 54px;
+  height: 54px;
+}
+
+@media screen and (min-width: 768px) {
+  .graduates {
+    display: flex;
+    padding: 40px;
+    text-align: left;
+  }
+
+  .graduates__pictures {
+    width: 150px;
+    margin-right: 46px;
+  }
+
+  .graduates__pictures-img {
+    height: 150px;
+    width: 150px;
+    margin-top: 0;
+  }
+
+  .graduates__description {
+    width: 100%;
+    text-align: left;
+  }
+
+  .graduates__description-tittle {
+    margin-top: 0px;
+  }
+
+  .graduates__description-history {
+    text-align: left;
+  }
+
+  .graduates__description-about {
+    text-align: left;
+  }
+}
