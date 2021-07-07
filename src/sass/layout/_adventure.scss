@@ -1,0 +1,28 @@
+.adventure {
+  &__box {
+    margin-left: 32px;
+    margin-right: 32px;
+  }
+  &__items {
+    display: flex;
+  }
+  &__icon {
+    top: 0;
+    left: 0;
+    width: 59px;
+    height: 60px;
+  }
+  &__text {
+    display: flex;
+    margin-left: 10px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.64;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.08em;
+    color: #111518;
+  }
+}
