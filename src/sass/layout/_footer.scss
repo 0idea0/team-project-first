@@ -40,7 +40,9 @@ footer__container {
     }
 
     &__address-link {
-      display: block;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       height: 40px;
       width: 40px;
     }
@@ -76,6 +78,10 @@ footer__container {
       padding-top: 21px;
       padding-bottom: 21px;
       background-color: #111518;
+    }
+
+    &__image-link {
+      display: block;
     }
   }
 
