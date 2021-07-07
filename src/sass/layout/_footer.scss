@@ -1,0 +1,97 @@
+@media screen and (max-width: 767px) {
+  .footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    &__logo {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 800;
+      font-size: 26px;
+      line-height: 1.23;
+      letter-spacing: 0.04em;
+      color: #111518;
+
+      &-container {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+      }
+
+      &-part {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 5px;
+        line-height: 1.2;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+        color: #ff6b09;
+      }
+    }
+
+    &__address-tel {
+      display: flex;
+      justify-content: center;
+      align-items: baseline;
+      margin-bottom: 30px;
+    }
+
+    &__address-link {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 40px;
+      width: 40px;
+    }
+
+    &__number {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 1.21;
+      letter-spacing: 0.08em;
+      color: #111518;
+    }
+
+    &__logo-text {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      font-size: 5px;
+      line-height: 1.2;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+    }
+
+    &__rights {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 2;
+
+      color: #b9b9b9;
+    }
+
+    &__rights-container {
+      padding-top: 21px;
+      padding-bottom: 21px;
+      background-color: #111518;
+    }
+
+    &__image-link {
+      display: block;
+    }
+  }
+
+  .logo-fire {
+    margin-left: -4px;
+    margin-right: -4px;
+    width: 14px;
+    height: 19px;
+  }
+
+  .tel-icon {
+    width: 20px;
+    height: 20px;
+    fill: #ff6b09;
+    margin-right: 10px;
+  }
+}
