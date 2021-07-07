@@ -1,0 +1,77 @@
+.adventure {
+  padding-top: 30px;
+  padding-bottom: 45px;
+
+  &__box {
+    margin-left: 32px;
+    margin-right: 32px;
+  }
+  &__items {
+    display: flex;
+  }
+  &__icon {
+    width: 60px;
+    height: 60px;
+  }
+  &__text {
+    display: flex;
+    width: 146px;
+    margin-left: 10px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.64;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.08em;
+    color: #111518;
+  }
+  &__items:not(:first-child) {
+    padding-top: 30px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .adventure {
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    &__box {
+      margin-left: 0;
+      margin-right: 0;
+    }
+    &__list {
+      display: flex;
+      justify-content: space-between;
+    }
+    &__text {
+      width: 146px;
+    }
+    &__items:not(:first-child) {
+      padding-top: 0;
+    }
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  .adventure {
+    margin-top: 97px;
+    margin-bottom: 130px;
+    &__icon {
+      width: 100px;
+      height: 102px;
+    }
+    &__text {
+      width: 366px;
+      margin-left: -20px;
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 1.64;
+      align-items: center;
+      letter-spacing: 0.08em;
+      justify-content: left;
+    }
+  }
+}
