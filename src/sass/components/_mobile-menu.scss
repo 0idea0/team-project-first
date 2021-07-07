@@ -36,6 +36,12 @@
       height: 15px;
     }
 
+    &.is-open {
+      opacity: 1;
+      visibility: visible;
+      pointer-events: auto;
+    }
+
     &__text-logo {
       color: #FFFFFF;
     }
