@@ -12,7 +12,6 @@
 .container-reviews {
   padding-top: 50px;
   padding-bottom: 50px;
-  background: #e5e5e5;
 }
 
 .graduates__pictures {
@@ -45,6 +44,7 @@
     margin-top: 30px;
     line-height: 1.21;
     font-size: 14px;
+    font-weight: 800;
   }
   &-history {
     color: #b9b9b9;
@@ -92,8 +92,17 @@
 @media screen and (min-width: 768px) {
   .graduates {
     display: flex;
-    padding: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 60px;
+    padding-top: 40px;
     text-align: left;
+    box-shadow: -5px 8px 26px rgba(0, 0, 0, 0.04);
+  }
+
+  .reviews__tittle {
+    font-size: 26px;
+    margin-bottom: 30px;
   }
 
   .graduates__pictures {
@@ -107,6 +116,10 @@
     margin-top: 0;
   }
 
+  .feeback-social-icon {
+    margin-top: 26px;
+  }
+
   .graduates__description {
     width: 100%;
     text-align: left;
@@ -114,13 +127,85 @@
 
   .graduates__description-tittle {
     margin-top: 0px;
+    font-size: 20px;
+  }
+
+  .graduates__description {
+    &-tittle {
+      color: var(--accent-color);
+      line-height: 1.21;
+      font-size: 20px;
+      font-weight: 800;
+    }
   }
 
   .graduates__description-history {
     text-align: left;
+    margin-top: 20px;
   }
 
   .graduates__description-about {
     text-align: left;
+    margin-top: 20px;
+  }
+
+  .people {
+    margin-top: 30px;
+    &__item:not(:last-child) {
+      margin-right: 30px;
+    }
+  }
+
+  .people__item:nth-last-of-type(1),
+  .people__item:nth-last-of-type(2),
+  .people__item:nth-last-of-type(6),
+  .people__item:nth-last-of-type(7) {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  .container-reviews {
+    padding-top: 130px;
+    padding-bottom: 130px;
+  }
+
+  .reviews__tittle {
+    font-size: 46px;
+  }
+
+  .graduates {
+    padding-left: 82px;
+    padding-right: 120px;
+    padding-bottom: 51px;
+    padding-top: 50px;
+  }
+
+  .graduates__description-tittle {
+    font-size: 30px;
+  }
+
+  .graduates__description-history {
+    display: block;
+    width: 482px;
+    text-align: left;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+
+  .graduates__description-about {
+    font-size: 18px;
+  }
+
+  .graduates__description-about {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 1.55;
+    display: block;
+    width: 852px;
+  }
+
+  .people {
+    margin-top: 40px;
   }
 }
