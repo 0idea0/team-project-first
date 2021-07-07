@@ -10,6 +10,9 @@
     display: flex;
   }
   &__icon {
+    top: 0;
+    left: 0;
+    width: 59px;
     width: 60px;
     height: 60px;
   }
@@ -27,6 +30,7 @@
     letter-spacing: 0.08em;
     color: #111518;
   }
+  
   &__items:not(:first-child) {
     padding-top: 30px;
   }
