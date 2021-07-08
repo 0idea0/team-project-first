@@ -17,7 +17,7 @@
       padding: 0;
       cursor: pointer;
     }
-  
+
     &__mobile-menu-icon {
       width: 30px;
       height: 30px;
@@ -25,11 +25,10 @@
   }
 }
 
-
 .header__container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logo-header {
@@ -49,10 +48,10 @@
   }
 
   &__container-bottom {
-      font-weight: 700;
-      font-size: 8px;
-      line-height: 1.25;
-      letter-spacing: 0.18em;
+    font-weight: 700;
+    font-size: 8px;
+    line-height: 1.25;
+    letter-spacing: 0.18em;
   }
 
   &__text-orange {
@@ -60,9 +59,7 @@
   }
 }
 
-
 @media screen and (min-width: 768px) {
-
   .menu {
     display: none;
   }
@@ -77,7 +74,7 @@
       padding: 0;
       cursor: pointer;
     }
-  
+
     &__mobile-menu-icon {
       width: 40px;
       height: 40px;
@@ -99,7 +96,7 @@
       letter-spacing: 0.14em;
       text-transform: uppercase;
       color: var(--accent-color);
-      border: 2px solid #FF6B09;
+      border: 2px solid #ff6b09;
       padding: 15px 5px;
       cursor: pointer;
     }
@@ -117,10 +114,10 @@
   }
 
   &__container-bottom {
-      font-weight: 700;
-      font-size: 8px;
-      line-height: 1.25;
-      letter-spacing: 0.18em;
+    font-weight: 700;
+    font-size: 8px;
+    line-height: 1.25;
+    letter-spacing: 0.18em;
   }
 
   &__text-orange {
@@ -173,8 +170,8 @@
     text-transform: uppercase;
     color: var(--main-paragraph-color);
 
-     &:hover,
-     &:focus {
+    &:hover,
+    &:focus {
       color: var(--accent-color);
     }
   }
