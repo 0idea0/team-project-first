@@ -70,7 +70,7 @@
     background-size: 100% 100%;
     box-shadow: -5px 21px 26px rgba(0, 0, 0, 0.04);
     background-position-y: 30px;
-  } 
+  }
 
   @media screen and (min-width: 768px) {
     .hero {
@@ -112,6 +112,16 @@
   }
 }
  
+  .hero__container {
+    background-image: url('/images/hero/tablet-bg-hero.png');
+    min-width: 768px;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    box-shadow: -5px 21px 26px rgba(0, 0, 0, 0.04);
+    background-position-y: 30px;
+  }
+
 @media screen and (min-width: 1366px) {
   .hero {
     
