@@ -20,7 +20,8 @@
     bottom: -100px;
     right: -77px;
     content: '';
-    background-image: url(../images/our-program/program-mobile1x.jpg);
+    background-image: url(../images/our-program/program-mobile1x.jpg),
+      linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
     width: 176px;
     height: 137px;
     background-position: -3px;
@@ -30,18 +31,19 @@
   }
 }
 
-@media screen and(min-width:390px) {
-  .our-program__list::after {
-    right: -3px;
-  }
-}
+// @media screen and(min-width:390px) {
+//   .our-program__list::after {
+//     right: -3px;
+//   }
+// }
 
 @media (min-device-pixel-ratio: 2) and (min-width: 320px),
   (min-resolution: 192dpi) and (min-width: 320px),
   (min-resolution: 2dppx) and (min-width: 320px) {
   .our-program__list {
     &::after {
-      background-image: url(../images/our-program/program-mobile2x.jpg);
+      background-image: url(../images/our-program/program-mobile2x.jpg),
+        linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
     }
   }
 }
@@ -213,9 +215,10 @@
     &::after {
       position: absolute;
       bottom: -150px;
-      right: -3px;
+      right: -40px;
       content: '';
-      background-image: url(../images/our-program/program-tablet1x.jpg);
+      background-image: url(../images/our-program/program-tablet1x.jpg),
+        linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
       width: 384px;
       height: 280px;
       opacity: 0.5;
@@ -228,7 +231,8 @@
     (min-resolution: 2dppx) and (min-width: 768px) {
     .our-program__list {
       &::after {
-        background-image: url(../images/our-program/program-tablet2x.jpg);
+        background-image: url(../images/our-program/program-tablet2x.jpg),
+          linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
       }
     }
   }
@@ -286,21 +290,21 @@
     top: 310px;
     left: -94px;
     content: '';
-    background-image: url(../images/our-program/program-desktop1x.jpg);
+    background-image: url(../images/our-program/program-desktop1x.jpg),
+      linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
     background-repeat: no-repeat;
     background-size: cover;
     width: 479px;
     height: 365px;
     opacity: 0.5;
-    background-size: contain;
-    background-repeat: no-repeat;
     z-index: 100;
   }
   @media (min-device-pixel-ratio: 2) and (min-width: 1314px),
     (min-resolution: 192dpi) and (min-width: 1314px),
     (min-resolution: 2dppx) and (min-width: 1314px) {
     .our-program__item::after {
-      background-image: url(../images/our-program/program-desktop2x.jpg);
+      background-image: url(../images/our-program/program-desktop2x.jpg),
+        linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
     }
   }
   .our-program__title-container {
