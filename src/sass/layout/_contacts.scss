@@ -181,8 +181,8 @@ color: var(--accent-color);
         background: #FF6B09;
         font-family: var(--main-font);
         font-weight: bold;
-        font-size: 12px;
-        line-height: 1.25;
+        font-size: 14px;
+        line-height: 1.21;
         text-align: center;
         letter-spacing: 0.08em;
         text-transform: uppercase;
@@ -207,4 +207,83 @@ color: var(--accent-color);
           ),
             url("../images/contacts/descktop-footer-bgi.jpg"), url("../images/contacts/descktop-footer-bgi.webp"), url("../images/contacts/descktop-footer-bgi@2x.jpg"), url("../images/contacts/descktop-footer-bgi@2x.webp");    
     }
+    .contacts__title {
+        margin-bottom: 50px;
+        font-family: var(--main-font);
+        font-size: 46px;
+        line-height: 1.3;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: var(--second-text-color);
+    }
+    
+    .contacts__title__text-accent {
+    color: var(--accent-color);
+    }
+
+    .contacts__contacts-paragraph {
+        padding-left: 118px;
+        padding-right: 118px;
+        margin-bottom: 56px;
+        font-family: var(--main-font);
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 1.23;
+        text-align: center;
+        letter-spacing: 0.08em;
+        color: var(--second-text-color);
+    }
+
+      
+    .contacts__form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contacts__form-input__name{
+        margin-bottom: 30px;
+    }
+    
+    .contacts__form-input__phone {
+        margin-bottom: 80px;
+    }
+
+    .contacts__form-input__name,
+    .contacts__form-input__phone {
+        padding-left: 28px;
+        font-family: var(--main-font);
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 1.25;
+        align-items: center;
+        letter-spacing: 0.08em;
+        color: var(--second-text-color);
+        width: 478px;
+        height: 70px;
+        border: 1px solid var(--second-text-color);
+        box-sizing: border-box;
+        background-color: rgba(0,0,0,0);
+
+        &::placeholder {
+            color: var(--second-text-color);
+        }
+    }
+
+        .contacts__form-btn {
+        width: 354px;
+        height: 70px;
+        background: #FF6B09;
+        font-family: var(--main-font);
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 1.20;
+        text-align: center;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: var(--second-text-color);
+        border: none;
+        cursor: pointer;
+        }
 }
