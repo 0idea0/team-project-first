@@ -15,7 +15,6 @@
 }
 
 .contacts__title {
-    // width: 280px;
     margin-bottom: 24px;
     font-family: var(--main-font);
     font-weight: 800;
@@ -91,6 +90,14 @@ color: var(--accent-color);
     color: var(--second-text-color);
     border: none;
     cursor: pointer;
+    transition: background-color 500ms, color 500ms;
+}
+
+.contacts__form-btn:hover,
+.contacts__form-btn:focus {
+    background-color: var(--second-text-color);
+    border: 2px solid var(--accent-color);
+    color: var(--accent-color);
 }
 
 
@@ -175,21 +182,30 @@ color: var(--accent-color);
         }
     }
 
-        .contacts__form-btn {
-        width: 260px;
-        height: 48px;
-        background: #FF6B09;
-        font-family: var(--main-font);
-        font-weight: bold;
-        font-size: 14px;
-        line-height: 1.21;
-        text-align: center;
-        letter-spacing: 0.08em;
-        text-transform: uppercase;
-        color: var(--second-text-color);
-        border: none;
-        cursor: pointer;
-        }
+    .contacts__form-btn {
+    width: 260px;
+    height: 48px;
+    background: var(--accent-color);
+    font-family: var(--main-font);
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.21;
+    text-align: center;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--second-text-color);
+    border: none;
+    cursor: pointer;
+    transition: background-color 500ms, color 500ms;
+    }
+    
+    .contacts__form-btn:hover,
+    .contacts__form-btn:focus {
+        background-color: var(--second-text-color);
+        border: 2px solid var(--accent-color);
+        color: var(--accent-color);
+    }
+    
 }
 
 @media screen and (min-width: 1366px) {
@@ -271,19 +287,27 @@ color: var(--accent-color);
         }
     }
 
-        .contacts__form-btn {
-        width: 354px;
-        height: 70px;
-        background: #FF6B09;
-        font-family: var(--main-font);
-        font-weight: bold;
-        font-size: 20px;
-        line-height: 1.20;
-        text-align: center;
-        letter-spacing: 0.08em;
-        text-transform: uppercase;
-        color: var(--second-text-color);
-        border: none;
-        cursor: pointer;
-        }
+    .contacts__form-btn {
+    width: 354px;
+    height: 70px;
+    background: #FF6B09;
+    font-family: var(--main-font);
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 1.20;
+    text-align: center;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--second-text-color);
+    border: none;
+    cursor: pointer;
+    transition: background-color 500ms, color 500ms;
+    }
+
+    .contacts__form-btn:hover,
+    .contacts__form-btn:focus {
+        background-color: var(--second-text-color);
+        border: 2px solid var(--accent-color);
+        color: var(--accent-color);
+    }
 }
