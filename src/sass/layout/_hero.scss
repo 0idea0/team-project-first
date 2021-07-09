@@ -61,18 +61,28 @@
   }
 }
 
-.hero__container {
-  background-image: url('/images/hero/mobile-bg-hero.png');
-  min-width: 320px;
-  height: auto;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  box-shadow: -5px 21px 26px rgba(0, 0, 0, 0.04);
-  background-position-y: 30px;
+@media screen and (max-width: 767px) {
+  .hero {
+    max-width: 767px;
+    background-image: url('/images/hero/mobile-bg-hero.png');
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    box-shadow: -5px 21px 26px rgba(0, 0, 0, 0.04);
+    background-position-y: 30px;
+  }
 }
 
 @media screen and (min-width: 768px) {
   .hero {
+    background-image: url('/images/hero/tablet-bg-hero.png');
+    //min-width: 768px;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    box-shadow: -5px 21px 26px rgba(0, 0, 0, 0.04);
+    background-position-y: 30px;
+
     &__container {
       display: flex;
       justify-content: space-between;
@@ -108,16 +118,6 @@
       right: 20px;
     }
   }
-}
-
-.hero__container {
-  background-image: url('/images/hero/tablet-bg-hero.png');
-  min-width: 768px;
-  height: auto;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  box-shadow: -5px 21px 26px rgba(0, 0, 0, 0.04);
-  background-position-y: 30px;
 }
 
 @media screen and (min-width: 1366px) {
