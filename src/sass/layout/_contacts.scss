@@ -96,6 +96,8 @@ color: var(--accent-color);
 
 @media screen and (min-width: 768px) {
     .contacts {
+        content: '';
+        background-size: cover;
         background: rgba(17, 21, 24, 1);
         background-image: linear-gradient(
             to right,
@@ -104,6 +106,12 @@ color: var(--accent-color);
           ),
             url("../images/contacts/tablet-footer-bgi.jpg"), url("../images/contacts/tablet-footer-bgi.webp"), url("../images/contacts/tablet-footer-bgi@2x.jpg"), url("../images/contacts/tablet-footer-bgi@2x.webp");
         
+    }
+
+    .contacts__wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     .contacts__title {
@@ -123,9 +131,8 @@ color: var(--accent-color);
     }
 
     .contacts__contacts-paragraph {
+        width: 451px;
         margin-bottom: 23px;
-        padding-right: 118px;
-        padding-left: 118px;
         font-family: var(--main-font);
         font-weight: 600;
         font-size: 14px;
@@ -134,6 +141,12 @@ color: var(--accent-color);
         letter-spacing: 0.08em;
         color: #FFFFFF;
     }
+
+    // .contacts__form {
+    //     display: flex;
+    //     flex-direction: column;
+    //     justify-content: center;
+    // }
 
     .contacts__form-input__name{
         margin-bottom: 20px;
@@ -166,6 +179,8 @@ color: var(--accent-color);
     }
 
         .contacts__form-btn {
+        width: 260px;
+        height: 48px;
         background: #FF6B09;
         font-family: var(--main-font);
         font-weight: bold;
@@ -177,5 +192,5 @@ color: var(--accent-color);
         color: #FFFFFF;
         border: none;
         cursor: pointer;
-    }
+        }
 }
